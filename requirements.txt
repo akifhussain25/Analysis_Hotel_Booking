@@ -1,0 +1,31 @@
+# Hotel Booking Analysis — Python Dependencies
+# =============================================
+# Python 3.13.4
+#
+# Install all at once:
+#   pip install -r requirements.txt
+#
+# Used by:
+#   clean_hotel_bookings.py     - pandas
+#   eda_hotel_bookings.py       - pandas, numpy
+#   visualize_hotel_bookings.py - pandas, numpy, matplotlib, seaborn
+#   dashboard.py                - pandas, plotly, dash
+#   app.py + frontend/          - pandas, plotly, dash
+#   Hotel_Booking_Analysis.ipynb- pandas, numpy, matplotlib, seaborn, jupyter
+
+# ── Core data ──────────────────────────────────────────────────────────────
+pandas==3.0.6
+numpy==2.5.3
+
+# ── Visualisation (static charts) ─────────────────────────────────────────
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# ── Interactive dashboard ──────────────────────────────────────────────────
+plotly==7.1.0
+dash==4.4.1
+
+# ── Jupyter notebook ──────────────────────────────────────────────────────
+jupyter
+notebook
+ipykernel
